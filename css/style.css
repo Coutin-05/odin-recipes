@@ -8,6 +8,8 @@ h1 {
     font-size: 70px;
     font-style: italic;
     animation: blinkingtext 2s infinite;
+    margin: 10px;
+    text-align: center;
 }
 /* The blinking method in css */
     @keyframes blinkingtext {
@@ -18,17 +20,23 @@ h1 {
         100%  {color: magenta;}
     }
 
-li {
+.recipe-list {
+    width: 500px;
     color: rgb(255, 0, 183);
-    color:
+    font-family:'Courier New', Courier, monospace;
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+    align-items: top;
 }
 
-a {    
-    font-family:'Courier New', Courier, monospace;
-    color: rgb(255, 0, 183);
+.chef-photo {
+    display: inline-block;
+    width: 300px;
 }
 
 img {
-    width: 600px;
-    height: auto;
+    width: 300px;
+    display: inline-block;
+
 }
